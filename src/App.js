@@ -3,8 +3,6 @@ import './App.css';
 import ToDos from './Components/ToDos/ToDos';
 import AddToDo from './Components/ToDos/Forms/AddToDo';
 
-
-
 const dummy_todos = [
   { tittle: 'learn react js' },
   { tittle: 'do assignments' },
