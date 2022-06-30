@@ -1,0 +1,38 @@
+input {
+    margin-top: 5px;
+    width: 50%;
+    padding: 5px;
+}
+
+button {
+    width: 15%;
+    padding: 5px;
+    background-color: rgba(128, 0, 128, 0.822);
+    margin-left: 60%;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+
+}
+
+button:hover {
+    background-color: rgba(128, 0, 128, 0.664);
+    cursor: pointer;
+}
+
+label {
+    background-color: purple;
+    display: block;
+    padding: 5px;
+    font-size: large;
+
+}
+
+.invalid label {
+    color: red;
+}
+
+.invalid input {
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.548);
+}
